@@ -1,0 +1,23 @@
+{
+  "name": "todolist-g",
+  "version": "1.0.0",
+  "description": "todolist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc src/ts/modules/main --outFile src/bundle.js --watch --sourceMap && open src/"
+  },
+  "author": "Arif",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arifullahkhan1/TODOLIST-G.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Arifullahkhan1/TODOLIST-G/issues"
+  },
+  "homepage": "https://github.com/Arifullahkhan1/TODOLIST-G#readme"
+}
